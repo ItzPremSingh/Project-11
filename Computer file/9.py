@@ -18,3 +18,9 @@ for i in range(3, n + 1):
         sum += i
 
 print("The sum of series is", sum)
+
+
+# Output
+
+# Enter the value of n: 10
+# The sum of series is 55

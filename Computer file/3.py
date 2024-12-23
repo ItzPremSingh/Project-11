@@ -21,3 +21,9 @@ while i <= n:
     i += 1
 
 print()
+
+
+# Output
+
+# Enter the value of n: 10
+# 1, 3, 7, 15, 31, 63, 127, 255, 511, 1023

@@ -1,12 +1,5 @@
 # Write a program in python to print following pattern :-
 
-# A
-# BC
-# DEF
-# GH
-# I
-
-
 number = 65
 
 for i in range(1, 4):
@@ -22,3 +15,13 @@ for i in range(2, 0, -1):
         number += 1
 
     print()
+
+
+# Output
+
+
+# A
+# BC
+# DEF
+# GH
+# I

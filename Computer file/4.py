@@ -17,3 +17,9 @@ elif marks >= 33:
 
 else:
     print("Fail")
+
+
+# Output
+
+# Enter the marks: 80
+# First position

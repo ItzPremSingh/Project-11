@@ -1,9 +1,5 @@
 # Write a program in python to print following pattern :-
 
-# 1
-# 2 6
-# 24 120 720
-
 number = 1
 times = 2
 
@@ -15,3 +11,10 @@ for i in range(1, 4):
         times += 1
 
     print()
+
+
+# Output
+
+# 1
+# 2 6
+# 24 120 720

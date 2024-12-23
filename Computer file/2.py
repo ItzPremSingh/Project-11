@@ -7,3 +7,9 @@ if year % 4 == 0:
 
 else:
     print(year, "is not a leap year.")
+
+
+# Output
+
+# Enter year: 2000
+# 2000 is a leap year

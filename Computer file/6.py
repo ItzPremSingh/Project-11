@@ -27,3 +27,9 @@ else:
     day = "Invalid week number"
 
 print(day)
+
+
+# Output
+
+# Enter the week number (1-7): 1
+# Monday

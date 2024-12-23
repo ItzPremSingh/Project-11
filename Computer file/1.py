@@ -16,3 +16,15 @@ for number in range(2, 1001):
 
     if isPrime:
         print(number, "is a prime number.")
+
+# Output
+
+# 2 is a prime number.
+# 3 is a prime number.
+# 5 is a prime number.
+# 7 is a prime number.
+# 11 is a prime number.
+# 13 is a prime number.
+# 17 is a prime number.
+# .....................
+# 997 is a prime number.
