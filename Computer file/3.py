@@ -1,29 +1,35 @@
 # Write a program in python to print a series of Mersenne number up to n.
 # With using for and while loop.
 
-# --- for loop ---
+n = int(input("Enter a number to print Mersenne numbers up to: "))
 
-n = int(input("Enter the value of n: "))
 
+print("Mersenne numbers using for loop:")
 for i in range(1, n + 1):
-    print((2**i) - 1, end=", ")
-
+    mersenne = (2**i) - 1
+    if mersenne <= n:
+        print(mersenne, end=" ")
+    else:
+        break
 print()
 
 
-# --- while loop ---
-
-n = int(input("Enter the value of n: "))
+print("Mersenne numbers using while loop:")
 i = 1
-
-while i <= n:
-    print((2**i) - 1, end=", ")
-    i += 1
-
+while True:
+    mersenne = (2**i) - 1
+    if mersenne <= n:
+        print(mersenne, end=" ")
+        i += 1
+    else:
+        break
 print()
 
 
 # Output
 
-# Enter the value of n: 10
-# 1, 3, 7, 15, 31, 63, 127, 255, 511, 1023
+# Enter a number to print Mersenne numbers up to: 10
+# Mersenne numbers using for loop:
+# 1 3 7
+# Mersenne numbers using while loop:
+# 1 3 7

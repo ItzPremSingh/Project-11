@@ -1,12 +1,13 @@
 # Write a program in python to print following pattern :-
 
-index = 1
-char = ("$", "#")
 string = ""
+for i in range(4):
+    if i % 2 == 0:
+        string = "#" + string
 
-for i in range(1, 5):
-    string = char[index % 2] + string
-    index += 1
+    else:
+        string = "$" + string
+
     print(string)
 
 

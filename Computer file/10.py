@@ -4,11 +4,11 @@
 
 # Cuboid
 
-length = float(input("Enter the length: "))
-breadth = float(input("Enter the breadth: "))
-height = float(input("Enter the height: "))
-area = 2 * (length * breadth + breadth * height + height * length)
-volume = length * breadth * height
+l = float(input("Enter the length: "))
+b = float(input("Enter the breadth: "))
+h = float(input("Enter the height: "))
+area = 2 * (l * b + b * h + h * l)
+volume = l * b * h
 print("Area of cuboid is", area)
 print("Volume of cuboid is", volume)
 
@@ -24,8 +24,8 @@ print("Volume of cuboid is", volume)
 # Cube
 
 side = float(input("Enter the side: "))
-area = 6 * (side * side)
-volume = side * side * side
+area = 6 * (side**2)
+volume = side**3
 print("Area of cube is", area)
 print("Volume of cube is", volume)
 
@@ -40,10 +40,10 @@ print("Volume of cube is", volume)
 
 pi = 3.14
 
-radius = float(input("Enter the radius: "))
-height = float(input("Enter the height: "))
-area = 2 * pi * radius * (radius + height)
-volume = pi * radius * radius * height
+r = float(input("Enter the radius: "))
+h = float(input("Enter the height: "))
+area = 2 * pi * r * (r + h)
+volume = pi * r**2 * h
 print("Area of cylinder is", area)
 print("Volume of cylinder is", volume)
 
@@ -57,11 +57,11 @@ print("Volume of cylinder is", volume)
 
 # Cone
 
-radius = float(input("Enter the radius: "))
-height = float(input("Enter the height: "))
-slant_height = (radius**2 + height**2) ** 0.5
-area = pi * radius * (radius + slant_height)
-volume = (pi * radius * radius * height) / 3
+r = float(input("Enter the radius: "))
+h = float(input("Enter the height: "))
+l = (r**2 + h**2) ** 0.5
+area = pi * r * (r + l)
+volume = (pi * r**2 * h) / 3
 print("Area of cone is", area)
 print("Volume of cone is", volume)
 
