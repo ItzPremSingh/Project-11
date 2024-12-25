@@ -3,30 +3,28 @@
 number = int(input("Enter the week number (1-7): "))
 
 if number == 1:
-    day = "Monday"
+    print("Monday")
 
 elif number == 2:
-    day = "Tuesday"
+    print("Tuesday")
 
 elif number == 3:
-    day = "Wednesday"
+    print("Wednesday")
 
 elif number == 4:
-    day = "Thursday"
+    print("Thursday")
 
 elif number == 5:
-    day = "Friday"
+    print("Friday")
 
 elif number == 6:
-    day = "Saturday"
+    print("Saturday")
 
 elif number == 7:
-    day = "Sunday"
+    print("Sunday")
 
 else:
-    day = "Invalid week number"
-
-print(day)
+    print("Invalid week number")
 
 
 # Output
