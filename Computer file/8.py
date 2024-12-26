@@ -1,7 +1,7 @@
 # Write a program in python to calculate speed of a vehicle for entered distance and time.
 
-d = int(input("Enter the distance (in metre): "))
-t = int(input("Enter the time (in second): "))
+d = float(input("Enter the distance (in metre): "))
+t = float(input("Enter the time (in second): "))
 
 print("Speed of vehicle is", d / t, "m/s")
 
