@@ -13,7 +13,6 @@ for i in range(2, n + 1):
             break
 
     if isPrime:
-        print(i, end=" ")
         sum += i
 
 print("The sum of series is", sum)
